@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de6f100e.css",
+    "main.js": "/static/js/main.fcb1ebac.js",
+    "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
+    "static/media/o5w80fim.png": "/static/media/o5w80fim.dedac2e3628f8c9b0d28.png",
+    "static/media/laptop-landing-1.png": "/static/media/laptop-landing-1.90864320c3616b16a048.png",
+    "static/media/Logo.svg": "/static/media/Logo.8309e75a4b18cad803d811b05020f336.svg",
+    "index.html": "/index.html",
+    "main.de6f100e.css.map": "/static/css/main.de6f100e.css.map",
+    "main.fcb1ebac.js.map": "/static/js/main.fcb1ebac.js.map",
+    "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de6f100e.css",
+    "static/js/main.fcb1ebac.js"
+  ]
+}
