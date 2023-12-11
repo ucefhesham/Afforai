@@ -1,3 +1,5 @@
+Deployed Version: https://65769da5bb45752df4524eee--wonderful-dusk-df73a8.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
