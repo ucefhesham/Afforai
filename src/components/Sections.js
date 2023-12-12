@@ -2,6 +2,7 @@ import React from 'react';
 import './Sections.css';
 import Landing4 from '../images/laptop-landing-4.png';
 import Landing5 from '../images/laptop-landing-5.png';
+import MLanding5 from '../images/mobile-landing-5.png';
 import Landing6 from '../images/laptop-landing-6.png';
 import Landing7 from '../images/laptop-landing-7.png';
 import Landing8 from '../images/laptop-landing-8.png';
@@ -22,7 +23,7 @@ import PowerOff from '../images/power-off.svg';
 
 const Sections = () => {
     return (
-        <div className='container'>
+        <div className='container-main'>
             <div className='section-r'>
                 <div className='section-text'>
                     <div className='section-title'>Say goodbye to long, tiresome documents</div>
@@ -41,17 +42,18 @@ const Sections = () => {
                 </div>
             </div>
             <div className='section-c'>
-                <div className='section-text-c'>
+                <div className='section-text-c left-when-small'>
                     <div className='text-btn-purple'>10x your productivity</div>
-                    <div className='section-title-c'>Save yourself from stress & streamline your workflow</div>
-                    <div className='section-paragraph-c'>The average worker spends 9 hours per week looking through & gathering information from thick stacks of documents. With Afforai, you can save yourself 8 hours per week (plus a lot of headaches).</div>
+                    <div className='section-title-c left-when-small-text'>Save yourself from stress & streamline your workflow</div>
+                    <div className='section-paragraph-c left-when-small-text'>The average worker spends 9 hours per week looking through & gathering information from thick stacks of documents. With Afforai, you can save yourself 8 hours per week (plus a lot of headaches).</div>
                 </div>
                 <div className='section-image-c'>
-                    <img src={Landing5} alt="Landing 5" className='landing-5'/>
+                    <img src={Landing5} alt="Landing 5" className='landing-5 laptop'/>
+                    <img src={MLanding5} alt="Mobile Landing 5" className='landing-5 mobile'/>
                 </div>
             </div>
 
-            <div className='section-c'>
+            <div className='section-c left-when-small'>
                 <div className='section-text-c'>
                     <div className='text-btn-purple'>Why choose us?</div>
                     <div className='section-title-c'>Built for the user</div>
@@ -97,22 +99,26 @@ const Sections = () => {
                     <div className='section-title'>Create multiple chatbots for different purposes</div>
                     <div className='section-paragraph'>Legal documents? Summarising a book? Extracting data from a website? We allow you to create multiple chatbots at one time, so you can use Afforai for a whole range of purposes.</div>
                     <div className='banner-btns'>
-                        <button className='try-for-free-btn-2'>Get Started</button>
-                        <button className='view-pricing-btn'>View Pricing</button>
+                        <button className='try-for-free-btn-2 disapear-when-smaller'>Get Started</button>
+                        <button className='view-pricing-btn disapear-when-smaller'>View Pricing</button>
                     </div>
                 </div>
                 <div className='section-image'>
-                    <img src={Landing11} alt="Landing 11" className='landing-4'/>
+                    <img src={Landing11} alt="Landing 11" className='landing-4 laptop'/>
+                    <img src={Landing11} alt="Landing 11" className='landing-4 mobile'/>
                 </div>
             </div>
             <div className='section-r' style={{gap: '55px'}}>
-                <div className='section-image'>
-                    <img src={Landing12} alt="Landing 12" className='landing-4'/>
+                <div className='section-image laptop'>
+                    <img src={Landing12} alt="Landing 12" className='landing-4 laptop'/>
                 </div>
                 <div className='section-text' style={{gap: '25px'}}>
                     <div className='text-btn-purple'>Different Modes Available</div>
                     <div className='section-title'>Customize your assistant with a range of different modes</div>
                     <div className='section-paragraph'>Further power your questions with additional modes. Afforai allows you to switch between three different modes, each which have unique ways of utilising our AI tools to answer your question(s).</div>
+                    <div className='section-image mobile'>
+                        <img src={Landing12} alt="Landing 12" className='landing-4 mobile'/>
+                    </div>
                     <div className='section-list'>
                         <ul className='list'>
                             <li className='list-item-1'>
@@ -139,18 +145,24 @@ const Sections = () => {
                     <div className='section-paragraph'>We support more than 100 Languages, meaning you can seamlessly use our services regardless of where you are from. Our Cross Language Querying feature also allows flawless translation of documents.</div>
                 </div>
                 <div className='section-image'>
-                    <img src={Landing13} alt="Landing 13" className='landing-4'/>
+                    <img src={Landing13} alt="Landing 13" className='landing-4 laptop'/>
+                </div>
+                <div className='section-image mobile'>
+                    <img src={Landing13} alt="Landing 13" className='landing-4 mobile'/>
                 </div>
             </div>
 
             <div className='section-r' style={{gap: '55px'}}>
                 <div className='section-image'>
-                    <img src={Landing14} alt="Landing 14" className='landing-4'/>
+                    <img src={Landing14} alt="Landing 14" className='landing-4 laptop'/>
                 </div>
                 <div className='section-text' style={{gap: '25px'}}>
                     <div className='text-btn-purple'>Get more out of your files</div>
                     <div className='section-title'>File Wizard - a game changing new feature</div>
                     <div className='section-paragraph'>Convert your files with less effort than ever. Afforai’s File Wizard feature allows you to transform your files, in limitless different ways. We can translate, summarize, or explain your upload in no time.</div>
+                </div>
+                <div className='section-image mobile'>
+                    <img src={Landing14} alt="Landing 14" className='landing-4 mobile'/>
                 </div>
             </div>
 
@@ -161,7 +173,7 @@ const Sections = () => {
                     <div className='section-paragraph-c'>Afforai allows you to upload files directly from Google Drive, One Drive & Dropbox, meaning your experience will be smooth sailing regardless of your preferred</div>
                 </div>
                 <div className='section-image-c'>
-                    <img src={Landing15} alt="Landing 15" className='landing-5' style={{width:'58%'}}/>
+                    <img src={Landing15} alt="Landing 15" className='landing-5 mobile-xl'/>
                 </div>
             </div>
 

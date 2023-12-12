@@ -181,7 +181,20 @@ span {
     display: none;
 }
 
+.small {
+    display: none;
+    
+}
+
 @media only screen and (max-width: 1200px) {
+
+    .big {
+        display: none;
+    }
+
+    .small {
+        display: inline-block;
+    }
     .ll1 {
         margin-top: 120px;
     }
@@ -221,6 +234,22 @@ span {
 
 @media only screen and (max-width: 767px) {
 
+    .AppSumo {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 0;
+        width: 100%;
+    }
+
+    .main-text {
+        text-align: left;
+    }
+
+    .slogan  {
+        text-align: left;
+    }
+
     .banner-btns {
         flex-direction: column;
         gap: 15px;
@@ -229,6 +258,10 @@ span {
     
     .ll1 {
         display: none;
+    }
+
+    .laptop-landing-2 {
+        width: 50px;
     }
 }
 

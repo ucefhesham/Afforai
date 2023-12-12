@@ -36,7 +36,7 @@ const FAQs = () => {
                     <div class="question">
                         <input type="checkbox" id="q1"></input>
                         <label class="header" for="q1">
-                            Is Afforai free?
+                            <div>Is Afforai free?</div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>                      
@@ -49,7 +49,7 @@ const FAQs = () => {
                     <div class="question">
                         <input type="checkbox" id="q2"></input>
                         <label class="header" for="q2">
-                            What are subscription credits versus permanent credits?
+                            <div>What are subscription credits versus permanent credits?</div>      
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>                      
@@ -62,7 +62,7 @@ const FAQs = () => {
                     <div class="question">
                         <input type="checkbox" id="q3"></input>
                         <label class="header" for="q3">
-                            Does Afforai support storing documents on the cloud like Google Drive, One Drive, or Drop Box?
+                            <div>Does Afforai support storing documents on the cloud like Google Drive, One Drive, or Drop Box?</div>      
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>                      
@@ -74,7 +74,7 @@ const FAQs = () => {
                     <div class="question">
                         <input type="checkbox" id="q4"></input>
                         <label class="header" for="q4">
-                            Does Afforai support uploading images and video?
+                            <div>Does Afforai support uploading images and video?</div>   
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>                      
@@ -86,7 +86,7 @@ const FAQs = () => {
                     <div class="question">
                         <input type="checkbox" id="q5"></input>
                         <label class="header" for="q5">
-                            Does Afforai support collaboration between accounts?
+                            <div>Does Afforai support collaboration between accounts?</div>     
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>                      
@@ -98,7 +98,7 @@ const FAQs = () => {
                     <div class="question">
                         <input type="checkbox" id="q6"></input>
                         <label class="header" for="q6">
-                            Is my data secured?
+                            <div>Is my data secured?</div>    
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>                      

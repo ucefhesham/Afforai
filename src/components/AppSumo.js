@@ -21,13 +21,26 @@ const AppSumo = () => {
             <div className='banner'>
                 <div className='main-text'>Your second brain for maximizing productivity</div>
                 <div className='slogan'>Afforai is an AI chatbot that searches, summarizes, and translates info from multiple sources to produce trustworthy research. Feed lengthy research documents to stacks of dry compliance requirements and extract the key findings you need.</div>
-                <div class="slider">
+                <div class="slider big">
                     <div className='slide-track'>
                         <div class="slide"><img src={Tick} alt="Tick" className='tick'/>Summarize Key Findings</div>
                         <div class="slide"><img src={Tick} alt="Tick" className='tick'/>Compare Between Documents</div>
                         <div class="slide"><img src={Tick} alt="Tick" className='tick'/>Search For Answers</div>
                         <div class="slide"><img src={Tick} alt="Tick" className='tick'/>Ask In Any Language</div>
                     </div>
+                </div>
+
+                <div className="container small" data-animated>
+                    <ul className='list-forward fast'>
+                        <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Summarize Key Findings</li>
+                        <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Compare Between Documents</li>
+                        <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Search For Answers</li>
+                        <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Ask In Any Language</li>
+                        <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Summarize Key Findings</li>
+                        <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Compare Between Documents</li>
+                        <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Search For Answers</li>
+                        <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Ask In Any Language</li>
+                    </ul>
                 </div>
                 <div className='banner-btns'>
                     <button className='try-for-free-btn-2'>Try For Free</button>
