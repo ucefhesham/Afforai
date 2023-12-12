@@ -23,6 +23,7 @@
 }
 
 .container{
+    z-index: 40;
     margin-left: auto;
     margin-right: auto;
 	width: 100%;
@@ -56,28 +57,23 @@
 .container[data-animated] .list-forward,
 .container[data-animated] .list-backward{
 	width: max-content;
-	animation: scroll 45s linear infinite;
+	animation: scroll 450s linear infinite;
 }
 
 .container[data-animated] .list-backward {
     width: max-content;
-	animation: scroll 35s linear infinite;
-}
-
-.container[data-animated] .list-forward:hover,
-.container[data-animated] .list-backward:hover {
-    animation-play-state: paused;
+	animation: scroll 400s linear infinite;
 }
 
 @keyframes scrollb{
 	to {
-        transform: translateX(calc(50% + 5px));
+        transform: translateX(calc(50% + 10px));
     }
 }
 
 @keyframes scroll{
 	to{
-		translate: calc(-50% - 5px);
+		translate: calc(-50% - 10px);
 	}
 }
 
@@ -149,7 +145,7 @@
 @media only screen and (max-width: 767px) {
 
     .review-wrapper {
-        width: 350px;
+        width: 300px;
         height: 250px;
     }
 

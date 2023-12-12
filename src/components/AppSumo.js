@@ -31,7 +31,7 @@ const AppSumo = () => {
                 </div>
 
                 <div className="container small" data-animated>
-                    <ul className='list-forward fast'>
+                    <ul className='list-forward-banner fast'>
                         <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Summarize Key Findings</li>
                         <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Compare Between Documents</li>
                         <li class="slide"><img src={Tick} alt="Tick" className='tick'/>Search For Answers</li>

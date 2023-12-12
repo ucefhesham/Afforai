@@ -214,6 +214,23 @@ span {
         display: flex;
         animation: slide-animation 5s infinite linear;
     }
+
+    .list-forward-banner{
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .slide {
+        margin: 0;
+       
+    }
+
+    .container[data-animated] .list-forward-banner{
+	    width: max-content;
+	    animation: scroll 15s linear infinite;
+    }
     
     @keyframes slide-animation {
         0% { transform: translateX(0); }
